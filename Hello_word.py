@@ -1,4 +1,15 @@
-print("Hello, World!")
-print("Learning about commits today!")
+import random
 
-print ('creating a new print in order to test out commits')
+greetings = [
+    "Hello, Git!",
+    "Greetings, developer!",
+    "Welcome to branching!",
+    "Hi there, coding friend!",
+    "Happy coding!"
+]
+
+def get_random_greeting():
+    return random.choice(greetings)
+
+print(get_random_greeting())
+print("Learning about branches today!")
