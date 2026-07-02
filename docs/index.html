@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Christian Dickerson | Resume Portfolio</title>
+  <style>
+    :root {
+      --bg: #f5f7fb;
+      --card: #ffffff;
+      --text: #233142;
+      --muted: #5f6b7a;
+      --accent: #2563eb;
+      --accent-dark: #1d4ed8;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--accent), var(--accent-dark));
+      color: white;
+      padding: 24px 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-right: 16px;
+      font-weight: 600;
+    }
+
+    section {
+      padding: 50px 20px;
+    }
+
+    .hero {
+      background: var(--card);
+      border-bottom: 1px solid #e5e7eb;
+    }
+
+    .hero h2 {
+      margin-bottom: 10px;
+      font-size: 2rem;
+    }
+
+    .card {
+      background: var(--card);
+      padding: 24px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+      margin-bottom: 20px;
+    }
+
+    h2, h3 {
+      margin-top: 0;
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 12px;
+      padding: 0;
+      list-style: none;
+    }
+
+    .skills-grid li {
+      background: #eff6ff;
+      padding: 10px 12px;
+      border-radius: 8px;
+      color: var(--accent-dark);
+      font-weight: 600;
+    }
+
+    .contact a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Christian Dickerson</h1>
+      <p>Data Scientist | Analyst | Problem Solver</p>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Welcome to My Portfolio</h2>
+      <p>I’m Christian Dickerson, a data-driven professional focused on turning data into clear insights, smarter decisions, and impactful solutions.</p>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <div class="card">
+        <h2>About Me</h2>
+        <p>I am a detail-oriented professional with a background in laboratory operations, medical documentation, IT support, and customer-focused service. My experience includes maintaining compliance, managing records, coordinating workflows, and supporting both clinical and administrative teams.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="container">
+      <div class="card">
+        <h2>Experience</h2>
+
+        <h3>New Health Pain Treatment Centers — Laboratory Technician</h3>
+        <p><strong>Apr 2021 – Mar 2023</strong></p>
+        <ul>
+          <li>Created and maintained an information system using Excel, medical documentation, and LIS for the company, simplifying the prior process while meeting national and local compliance requirements including HIPAA and CAP.</li>
+          <li>Served as a liaison between the laboratory and clinic departments to improve communication and workflow.</li>
+          <li>Balanced responsibilities in both clinic and laboratory operations in a hybrid role.</li>
+          <li>Maintained and audited chain-of-custody paperwork for legally sensitive samples, including drug tests.</li>
+        </ul>
+
+        <h3>Colorado Springs Pristine Cleaning — Associate</h3>
+        <p><strong>Jul 2023 – Current</strong></p>
+        <ul>
+          <li>Work independently to clean businesses to client satisfaction standards.</li>
+          <li>Operate effectively in a fast-paced environment while maintaining high-quality service.</li>
+          <li>Communicate with client staff regarding issues or cleaning needs.</li>
+        </ul>
+
+        <h3>Night Shade Homes — Project Assistant</h3>
+        <p><strong>Jan 2019 – Apr 2020</strong></p>
+        <ul>
+          <li>Managed projects from start to finish.</li>
+          <li>Stayed current with industry advancements and technology.</li>
+          <li>Performed repairs and maintenance work.</li>
+          <li>Set up a printer server and provided IT support under strict deadlines.</li>
+        </ul>
+
+        <h3>Taco Bell — Shift Manager</h3>
+        <p><strong>May 2011 – Dec 2016</strong></p>
+        <ul>
+          <li>Improved labor cost formulas and helped train new associates.</li>
+          <li>Assisted with scheduling and hiring processes.</li>
+          <li>Managed safety procedures, inventory, and store finances.</li>
+        </ul>
+
+        <h3>Sedgwick County Health Center — Medical Lab Technician Intern</h3>
+        <p><strong>Oct 2018 – Dec 2019</strong></p>
+        <ul>
+          <li>Performed maintenance on complex medical equipment.</li>
+          <li>Used a Laboratory Information System (LIS) to record results accurately and efficiently.</li>
+          <li>Collected, processed, analyzed, and recorded test results with precision.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <div class="card">
+        <h2>Education</h2>
+        <p><strong>PIMA Medical Institute</strong><br>Associates in Occupational Studies<br>Medical Laboratory Technician<br><em>October 2018</em></p>
+        <p>Graduated Magna Cum Laude. Training included Microsoft Office Suite, technical writing, chemistry, microbiology, phlebotomy, HIPAA, and CPR.</p>
+
+        <h2>Skills</h2>
+        <ul class="skills-grid">
+          <li>Multitasking</li>
+          <li>Troubleshooting</li>
+          <li>Organization</li>
+          <li>Prioritizing</li>
+          <li>Safety</li>
+          <li>Customer Service</li>
+          <li>Communication</li>
+          <li>Management</li>
+          <li>Excel</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <div class="card contact">
+        <h2>Contact</h2>
+        <p><strong>Location:</strong> Colorado Springs, CO 80918</p>
+        <p><strong>Phone:</strong> (719) 646-8192</p>
+        <p><strong>Email:</strong> Chrisdickerson900@gmail.com</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
